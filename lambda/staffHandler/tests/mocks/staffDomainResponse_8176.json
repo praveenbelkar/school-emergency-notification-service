@@ -1,0 +1,178 @@
+{
+  "_links": [
+    {
+      "href": "/staff/search?page=1&limit=5",
+      "rel": "first"
+    },
+    {
+      "href": "/staff/search?page=1&limit=5",
+      "rel": "self"
+    }
+  ],
+  "_meta": {
+    "schemaVersion": "2.0.0",
+    "count": 5,
+    "limit": 5
+  },
+  "staff": [
+    {
+      "staffIdentifier": "3481501105843",
+      "staffSAPEmployeeIdentifier": "1051843",
+      "staffSAPSystemIdentifier": "01051843",
+      "staffDoEUserIdentifier": "LINDA.JURCEVIC2",
+      "staffWorkingWithChildrenCheckNumber": "WWC0898709E",
+      "staffTitleTypeCode": "Mrs",
+      "staffGivenName": "Zdenka",
+      "staffMiddleName": "Linda",
+      "staffFamilyName": "Jurcevic",
+      "staffGenderTypeCode": "F",
+      "staffStreetAddressLine1": "12 Kareela Rd",
+      "staffStreetAddressSuburbName": "BAULKHAM HILLS",
+      "staffStreetAddressPostalCodeIdentifier": "2153",
+      "staffStreetAddressStateCode": "NSW",
+      "staffDoEEmailAddress": "LINDA.JURCEVIC2@DET.NSW.EDU.AU",
+      "staffPhoneNumber": "02 9602 0083",
+      "staffEmployment": [
+        {
+          "staffSchoolCode": "8176",
+          "staffPositionName": "Deputy Principal",
+          "staffFunctionalUnitCode": "71023218",
+          "staffFunctionalUnitName": "Deputy Principal 1",
+          "staffManagementUnitCode": "71019848",
+          "staffManagementUnitName": "Liverpool Girls High School",
+          "staffPayScaleSubGroup": "DP",
+          "schoolStaffIdentifier": "3481501105843"
+        }
+      ]
+    },
+    {
+      "staffIdentifier": "5231501105325",
+      "staffSAPEmployeeIdentifier": "1051325",
+      "staffSAPSystemIdentifier": "01051325",
+      "staffDoEUserIdentifier": "CHRISTINE.ROACHE",
+      "staffWorkingWithChildrenCheckNumber": "WWC1180339E",
+      "staffTitleTypeCode": "Ms",
+      "staffGivenName": "Christine",
+      "staffFamilyName": "Roache",
+      "staffGenderTypeCode": "F",
+      "staffStreetAddressLine1": "38/12-18 Bathurst Street",
+      "staffStreetAddressSuburbName": "LIVERPOOL",
+      "staffStreetAddressPostalCodeIdentifier": "2170",
+      "staffStreetAddressStateCode": "NSW",
+      "staffDoEEmailAddress": "CHRISTINE.ROACHE@DET.NSW.EDU.AU",
+      "staffPhoneNumber": "9602 0083",
+      "staffEmployment": [
+        {
+          "staffSchoolCode": "8176",
+          "staffPositionName": "School Admin Officer",
+          "staffFunctionalUnitCode": "71019849",
+          "staffFunctionalUnitName": "Admin & Support",
+          "staffManagementUnitCode": "71019848",
+          "staffManagementUnitName": "Liverpool Girls High School",
+          "staffPayScaleSubGroup": "NA",
+          "schoolStaffIdentifier": "5231501105325"
+        }
+      ]
+    },
+    {
+      "staffIdentifier": "6580619916856",
+      "staffSAPEmployeeIdentifier": "9160856",
+      "staffSAPSystemIdentifier": "09160856",
+      "staffDoEUserIdentifier": "BELINDA.DUKE",
+      "staffWorkingWithChildrenCheckNumber": "WWC1062005E",
+      "staffTitleTypeCode": "Ms",
+      "staffGivenName": "Belinda",
+      "staffMiddleName": "Margaret",
+      "staffFamilyName": "Duke",
+      "staffGenderTypeCode": "F",
+      "staffStreetAddressLine1": "25 Allibone Street",
+      "staffStreetAddressSuburbName": "ASHBURY",
+      "staffStreetAddressPostalCodeIdentifier": "2193",
+      "staffStreetAddressStateCode": "NSW",
+      "staffDoEEmailAddress": "BELINDA.DUKE@DET.NSW.EDU.AU",
+      "staffPhoneNumber": "9602 0083",
+      "staffEmployment": [
+        {
+          "staffSchoolCode": "8176",
+          "staffPositionName": "Head Tchr (School)",
+          "staffFunctionalUnitCode": "71023219",
+          "staffFunctionalUnitName": "Deputy Principal 2",
+          "staffManagementUnitCode": "71019848",
+          "staffManagementUnitName": "Liverpool Girls High School",
+          "staffPayScaleSubGroup": "HT",
+          "schoolStaffIdentifier": "6580619916856"
+        }
+      ]
+    },
+    {
+      "staffIdentifier": "6611611116166",
+      "staffSAPEmployeeIdentifier": "1161166",
+      "staffSAPSystemIdentifier": "01161166",
+      "staffDoEUserIdentifier": "KERRY.WATTS3",
+      "staffWorkingWithChildrenCheckNumber": "WWC1151665E",
+      "staffTitleTypeCode": "Mrs",
+      "staffGivenName": "Kerry Ann",
+      "staffFamilyName": "Watts",
+      "staffGenderTypeCode": "F",
+      "staffStreetAddressLine1": "406 Lawrence Hargraves Drive",
+      "staffStreetAddressSuburbName": "SCARBOROUGH",
+      "staffStreetAddressPostalCodeIdentifier": "2515",
+      "staffStreetAddressStateCode": "NSW",
+      "staffDoEEmailAddress": "KERRY.WATTS3@DET.NSW.EDU.AU",
+      "staffPhoneNumber": "9602 0083",
+      "staffMobileNumber": "0430082183",
+      "staffEmployment": [
+        {
+          "staffSchoolCode": "8176",
+          "staffPositionName": "School Admin Officer",
+          "staffFunctionalUnitCode": "71019849",
+          "staffFunctionalUnitName": "Admin & Support",
+          "staffManagementUnitCode": "71019848",
+          "staffManagementUnitName": "Liverpool Girls High School",
+          "staffPayScaleSubGroup": "NA",
+          "schoolStaffIdentifier": "6611611116166"
+        },
+        {
+          "staffSchoolCode": "8176",
+          "staffPositionName": "School Admin Officer",
+          "staffFunctionalUnitCode": "71019849",
+          "staffFunctionalUnitName": "Admin & Support",
+          "staffManagementUnitCode": "71019848",
+          "staffManagementUnitName": "Liverpool Girls High School",
+          "staffPayScaleSubGroup": "NA",
+          "schoolStaffIdentifier": "2852444444582"
+        }
+      ]
+    },
+    {
+      "staffIdentifier": "8058701107508",
+      "staffSAPEmployeeIdentifier": "1078508",
+      "staffSAPSystemIdentifier": "01078508",
+      "staffDoEUserIdentifier": "MELINDA.WELLS",
+      "staffWorkingWithChildrenCheckNumber": "WWC1186751E",
+      "staffTitleTypeCode": "Mrs",
+      "staffGivenName": "Melinda",
+      "staffMiddleName": "Jane",
+      "staffFamilyName": "Dyer",
+      "staffGenderTypeCode": "F",
+      "staffStreetAddressLine1": "6 Dombey Place",
+      "staffStreetAddressSuburbName": "AMBARVALE",
+      "staffStreetAddressPostalCodeIdentifier": "2560",
+      "staffStreetAddressStateCode": "NSW",
+      "staffDoEEmailAddress": "MELINDA.WELLS@DET.NSW.EDU.AU",
+      "staffPhoneNumber": "02 96020083",
+      "staffEmployment": [
+        {
+          "staffSchoolCode": "8176",
+          "staffPositionName": "C'Room Teacher SBR",
+          "staffFunctionalUnitCode": "71023226",
+          "staffFunctionalUnitName": "English",
+          "staffManagementUnitCode": "71023219",
+          "staffManagementUnitName": "Deputy Principal 2",
+          "staffPayScaleSubGroup": "CRTSBR",
+          "schoolStaffIdentifier": "8058701107508"
+        }
+      ]
+    }
+  ]
+}

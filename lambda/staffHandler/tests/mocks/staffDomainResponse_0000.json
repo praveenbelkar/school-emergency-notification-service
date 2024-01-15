@@ -1,0 +1,18 @@
+{
+  "_links": [
+    {
+      "href": "/staff/search?page=1&limit=5",
+      "rel": "first"
+    },
+    {
+      "href": "/staff/search?page=2&limit=5",
+      "rel": "self"
+    }
+  ],
+  "_meta": {
+    "schemaVersion": "2.0.0",
+    "count": 0,
+    "limit": 5
+  },
+  "staff": []
+}

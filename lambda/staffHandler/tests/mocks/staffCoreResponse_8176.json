@@ -1,0 +1,89 @@
+{
+  "StaffPersonals": {
+    "StaffPersonal": [
+      {
+        "StaffPersonalId": "16fb53e1-ddff-4dc8-a7af-9b27ad4c4ad8",
+        "LocalId": "urn:ebs:staffid:46337",
+        "BirthDate": "2009-12-20",
+        "Title": "MRS",
+        "FamilyName": "Isffffff",
+        "GivenName": "Anasfffff",
+        "OtherName": "Bulanhagui",
+        "FullName": "Anastffffff Bulanhagui Isfffff",
+        "Sex": "2",
+        "CanBeTimeTabled": true,
+        "UserId": "KERRY.WATTS3",
+        "UserGuid": "",
+        "ActiveEmployments": "",
+        "PositionName": "",
+        "PositionTitle": "",
+        "ActiveEntitlements": "",
+        "StatusAuth": "",
+        "Associations": "",
+        "SapEmployeeId": "",
+        "Roles": "",
+        "PepsEmployeeId": "",
+        "Gender": "",
+        "EmploymentStatus": "",
+        "SourceSytem": "EBS",
+        "CanBeTimetabled": "Y",
+        "OtherIdList": {
+          "OtherId": [
+            {
+              "value": "urn:ebs:exref:Anastacia.Isip1",
+              "Type": "ExRef"
+            },
+            {
+              "value": "urn:ebs:saphr:05555555",
+              "Type": "SAPHR"
+            },
+            {
+              "value": "urn:ebs:decid:Anastacia.Isip1",
+              "Type": "DECId"
+            }
+          ]
+        },
+        "PersonInfo": {
+          "OtherNames": {
+            "Name": [
+              {
+                "Type": "PRF",
+                "GivenName": "Anastacia",
+                "FamilyName": "Isffffff"
+              }
+            ]
+          },
+
+          "PhoneNumberList": {
+            "PhoneNumber": [
+              {
+                "Type": "0096",
+                "Number": "9999 999 270"
+              },
+              {
+                "Type": "0777",
+                "Number": "9999 999 270"
+              },
+              {
+                "Type": "0888",
+                "Number": "9999 999 270"
+              }
+            ]
+          },
+          "EmailList": {
+            "Email": [
+              {
+                "value": "XXXcccc.ccccc@det.nsw.edu.au",
+                "Type": "01"
+              }
+            ]
+          }
+        },
+        "Locations": {
+          "ActivePEPLocation": "2840",
+          "ActiveCEPLocations": [1234, 4567]
+        }
+      }
+    ]
+  }
+}

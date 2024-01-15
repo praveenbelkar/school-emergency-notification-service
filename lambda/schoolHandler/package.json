@@ -1,0 +1,52 @@
+{
+  "name": "schoolhandler",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.1.2",
+    "@types/aws-lambda": "^8.10.115",
+    "@types/jest": "^29.5.1",
+    "aws-sdk-client-mock-jest": "^3.0.0",
+    "axios-mock-adapter": "^1.21.5",
+    "cucumber-html-reporter": "^6.0.0",
+    "jest": "^29.5.0",
+    "jest-html-reporter": "^3.10.1",
+    "jest-junit": "^16.0.0",
+    "jest-when": "^3.6.0",    
+    "rest-assured-ts": "^0.1.8",
+    "ts-jest": "^29.1.0",
+    "tunnel": "^0.0.6",
+    "typescript": "^5.1.6",
+    "crypto-js": "^4.2.0",
+    "node-fetch": "^3.3.2"
+  },
+  "scripts": {
+    "clean": "rm --force -r dist",
+    "build": "npx tsc",
+    "package": "cp package.json dist/package.json && cd dist && npm install --omit=dev",
+    "lint": "eslint --ext .js,.ts .",
+    "test": "cp -r --force tests/events dist/tests && node --experimental-vm-modules node_modules/jest/bin/jest.js --detect-open-handles --testPathPattern=./dist/tests/.*\\.js --coverage",
+    "testIntegration": "cd tests && npx cucumber-js --format progress --format html:cucumber-report.html --format json:cucumber-report.json --force-exit -t ",
+    "local": "npm run build && npm run package && cp -r --force tests/events dist/tests && clear && node --experimental-json-modules dist/local.js"
+  },
+  "dependencies": {
+    "@aws-lambda-powertools/tracer": "^1.8.0",
+    "aws-xray-sdk": "^3.5.0",
+    "axios": "^1.4.0",
+    "axios-retry": "^3.6.0",
+    "dotenv": "^16.3.1",
+    "https-proxy-agent": "^7.0.1",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.9.1",
+    "typedi": "^0.10.0",
+    "uuid": "^9.0.0",
+    "@aws-sdk/client-secrets-manager": "^3.398.0",
+    "logging": "git+ssh://git@bitbucket.org/nsw-education/sharedcomponents_structuredlogging.git?ref=release/1.0.1"
+  }
+}
